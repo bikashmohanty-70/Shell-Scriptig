@@ -1,0 +1,485 @@
+    1  sudo mysql -u root -p
+    2  sudo apt update
+    3  clear
+    4  ls -l /usr/bin
+    5  sudo mysql -u root -p
+    6  clear
+    7  mysql -u root -p
+    8  ls -l /usr/bin
+    9  -rwxr-xr-x 1 root root     3904360 Nov 15 18:53  mysql
+   10  clear
+   11  ls -l /usr/bin
+   12  sudo apt-get update
+   13  sudo apt-get install mysql-server
+   14  mysql --version
+   15  mysql -u root -p
+   16  clear
+   17  ls -l /usr/bin
+   18  -rwxr-xr-x 1 root root     3904360 Nov 15 18:53  mysql
+   19  sudo apt-get openinstall-jdk-8-jdk
+   20  sudo apt-get open install-jdk-8-jdk
+   21  sudo apt-get install open-jdk-8-jdk
+   22  sudo apt install openjdk-8-jdk
+   23  sudo apt install openjdk-8-jre
+   24  java --version
+   25  java -version
+   26  sudo apt update
+   27  sudo apt install git
+   28  sudo apt-get install git
+   29  git --version
+   30  git config –global user.name "bikashmohanty-70"
+   31  cat /etc/shells
+   32  echo "helo"
+   33  exitscript
+   34  clear
+   35  gedit UsingCommandsInScript
+   36  gedit
+   37  gedit UsingCommandsInScript.sh
+   38  sh UsingCommandsInScript.sh
+   39  gedit UsingCommandsInScript.sh
+   40  sh UsingCommandsInScript.sh
+   41  passwd
+   42  clear
+   43  sudo -i
+   44  clear
+   45  sudo -i
+   46  exit
+   47  cal
+   48  date
+   49  inconfig
+   50  clear
+   51  cal 31 1 2018
+   52  cal 1 2018
+   53  cal
+   54  cal jan 2021
+   55  clear
+   56  date
+   57  pwd
+   58  ls -l
+   59  cd Downloads/touch text1
+   60  cd Downloads/
+   61  touch text1
+   62  clear
+   63  cd ;
+   64  pwd
+   65  cd Shell\ Scripting/
+   66  ip config
+   67  ipconfig
+   68  iconfig
+   69  clear
+   70  umask
+   71  cat > test
+   72  cat test
+   73  clear
+   74  ls
+   75  wc -m test
+   76  cat test
+   77  wc -l test
+   78  wc test
+   79  wc -w test
+   80  clear
+   81  grep -c "programmer" test
+   82  cat test
+   83  grep -c "Programmer"
+   84  grep -c "Programmer" test
+   85  grep -i hello test
+   86  cat animals
+   87  cat > animals
+   88  sort animals
+   89  clear
+   90  cat > student
+   91  cat student
+   92  cut -d"-" -f 1,3 student
+   93  clearls
+   94  clear
+   95  ls
+   96  gpedit
+   97  gedit
+   98  sh HelloWorld.sh
+   99  du
+  100  man du
+  101  script
+  102  exit
+  103  sudo passwd root
+  104  exit
+  105  sudo apt-get install sysvbanner
+  106  cd Shell\ Scripting/
+  107  clear
+  108  sh UsingCommandsInScript.sh 
+  109  clear
+  110  cd root
+  111  root
+  112  cd
+  113  clear
+  114  sudo passwd bridgelabz
+  115  sudo apt-get install chrome
+  116  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  117  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  118  sudo apt-get updates
+  119  sudo apt-get upgrades
+  120  sudo apt-get upgrade
+  121  sudo apt update
+  122  clear
+  123  myssql -u root -p
+  124  mysql -u root -p
+  125  clear
+  126  cd Shell\ Scripting/
+  127  gedit variables.sh
+  128  sh variables.sh
+  129  gedit PositionalParameters.sh
+  130  sh PositionalParameters.sh
+  131  gedit PositionalParameters.sh
+  132  gpedit RenamingFile.sh
+  133  gedit RenamingFile.sh
+  134  cat > Vicky
+  135  ls
+  136  sh RenamingFile.sh Vicky
+  137  gedit RenamingFile.sh
+  138  clear
+  139  gedit RenamingFile.sh
+  140  cat happy
+  141  touch happy
+  142  sh RenamingFile.sh happy 
+  143  ls
+  144  rm test
+  145  ls
+  146  clear
+  147  cd Shell\ Scripting/
+  148  ls
+  149  clear
+  150  sh RenamingFile.sh Vicky
+  151  clear
+  152  sh RenamingFile.sh Vicky
+  153  clear
+  154  gedit ChangePermission.sh
+  155  ls
+  156  ls -l VickyChangedFileName 
+  157  sh ChangePermission.sh VickyChangedFileName 
+  158  clear
+  159  ls
+  160  cat VickyChangedFileName 
+  161  cat > Test
+  162  cat Test 
+  163  set 'cat Test'
+  164  echo $1
+  165  set `cat Test`
+  166  echo $1
+  167  echo 8
+  168  echo *
+  169  set `cat Test`
+  170  echo $*
+  171  clear
+  172  who am i
+  173  who
+  174  whoami
+  175  who am i
+  176  who i am
+  177  who i
+  178  clear
+  179  gedit AccentGraves.sh
+  180  ls
+  181  sh AccentGraves.sh Test
+  182  ls
+  183  gedit AccentGraves.sh
+  184  sh AccentGraves.sh Test.bridgelabz
+  185  ls
+  186  gedit AccentGraves.sh
+  187  sh AccentGraves.sh Test.bridgelabz.:0 
+  188  clear
+  189  rm Test.bridgelabz.\:0 
+  190  touch test
+  191  sh AccentGraves.sh test
+  192  gedit AccentGraves.sh
+  193  who
+  194  gedit AccentGraves.sh
+  195  sh AccentGraves.sh test
+  196  ls
+  197  gedit AccentGraves.sh
+  198  clear
+  199  gedit CountAllFilesDirectories.sh
+  200  clear
+  201  sh CountAllFilesDirectories.sh *
+  202  gedit MathOnInteger.sh
+  203  sh MathOnInteger.sh 
+  204  gedit OperatorPrecedence.sh
+  205  sh OperatorPrecedence.sh 
+  206  gedit FloatingPointOperations.sh
+  207  who
+  208  cal
+  209  clear
+  210  cd Shell\ Scripting/
+  211  ls
+  212  gedit FloatingPointOperations.sh 
+  213  sh FloatingPointOperations.sh 
+  214  gedit FloatingPointOperations.sh 
+  215  sh FloatingPointOperations.sh 
+  216  clear
+  217  echo "hello \n bikash"
+  218  gedit EscapeSequence.sh
+  219  sh EscapeSequence.sh
+  220  gedit EscapeSequence.sh
+  221  sh EscapeSequence.sh
+  222  clear
+  223  echo "hello \nbikash"
+  224  clear
+  225  gedit EscapeSequence.sh
+  226  sh EscapeSequence.sh
+  227  gedit EscapeSequence.sh
+  228  sh EscapeSequence.sh
+  229  gedit EscapeSequence.sh
+  230  sh EscapeSequence.sh
+  231  gedit EscapeSequence.sh
+  232  sh EscapeSequence.sh
+  233  gedit EscapeSequence.sh
+  234  sh EscapeSequence.sh
+  235  gedit EscapeSequence.sh
+  236  sh EscapeSequence.sh
+  237  clear
+  238  gedit EscapeSequence.sh
+  239  sh EscapeSequence.sh
+  240  gedit EscapeSequence.sh
+  241  sh EscapeSequence.sh
+  242  gedit EscapeSequence.sh
+  243  sh EscapeSequence.sh
+  244  gedit EscapeSequence.sh
+  245  sh EscapeSequence.sh
+  246  gedit EscapeSequence.sh
+  247  sh EscapeSequence.sh
+  248  clear
+  249  sh tput.sh
+  250  clear
+  251  sh tput.sh
+  252  clear
+  253  sh tput.sh
+  254  clear
+  255  sh tput.sh
+  256  clear
+  257  sh tput.sh
+  258  clear
+  259  +
+  260  `
+  261  +---0-69*lear
+  262  clear
+  263  cd Shell\ Scripting/
+  264  clear
+  265  echo $?
+  266  clar
+  267  clear
+  268  ls
+  269  cat student
+  270  clear
+  271  touch kitty
+  272  sh If-Then.sh 
+  273  ls
+  274  cat ChangePermission.sh 
+  275  sh ChangePermission.sh 
+  276  sh ChangePermission.sh  HelloKitty 
+  277  ls
+  278  clear
+  279  rm HelloKitty 
+  280  ls
+  281  clar
+  282  clear
+  283  sh If-Then-Else.sh 
+  284  sh RunCheckOnNumbers.sh 
+  285  clear
+  286  sh FileTest.sh 
+  287  clear
+  288  sh FileTest.sh 
+  289  clear
+  290  cd dog/
+  291  touch te
+  292  cat test
+  293  cat test1
+  294  cat > test
+  295  cat test
+  296  clear
+  297  rm test
+  298  cat > test
+  299  cat  test
+  300  cat test
+  301  clear
+  302  rm test
+  303  cat > Test
+  304  cat Test
+  305  cd ..
+  306  sh AppendIntoFile.sh 
+  307  cat Test
+  308  chmod -w Test
+  309  sh AppendIntoFile.sh 
+  310  clear
+  311  sh AppendIntoFile.sh 
+  312  clear
+  313  sh AppendIntoFile.sh 
+  314  clear
+  315  sh AppendIntoFile.sh 
+  316  clear
+  317  sh AppendIntoFile.sh 
+  318  clear
+  319  sh AppendIntoFile.sh 
+  320  clear
+  321  sh AppendIntoFile.sh 
+  322  cat Test
+  323  CLEAR
+  324  clear
+  325  sh AppendIntoFile.sh 
+  326  chmod -w Test
+  327  sh AppendIntoFile.sh 
+  328  clear
+  329  sh AppendIntoFile.sh 
+  330  clear
+  331  sh AppendIntoFile.sh 
+  332  cat Test
+  333  sh AppendIntoFile.sh 
+  334  clear
+  335  cat test
+  336  cat Test
+  337  clear
+  338  sh AppendIntoFile.sh 
+  339  clear
+  340  ./AppendIntoFile.sh 
+  341  chmod +x AppendIntoFile.sh 
+  342  ./AppendIntoFile.sh 
+  343  clear
+  344  ./AppendIntoFile.sh 
+  345  clear
+  346  cat Test
+  347  clear
+  348  ls
+  349  clear
+  350  sh CheckString.sh 
+  351  sh LogicalOperator.sh 
+  352  sh LogicalOperator.sh
+  353  clear
+  354  sh LogicalOperator.sh
+  355  55
+  356  sh LogicalOperator.sh
+  357  sh CountNumbersOfCharacters-User\'sInput.sh 
+  358  clear
+  359  sh CountNumbersOfCharacters-User\'sInput.sh 
+  360  clear
+  361  sh CountNumbersOfCharacters-User\'sInput.sh 
+  362  sh CountNumbersOfCharacters-User\'sInput.sh
+  363  clear
+  364  sh CountCharsUserInput.sh
+  365  clear
+  366  sh CountCharsUserInput.sh
+  367  clear
+  368  sh CountCharsUserInput.sh
+  369  wc -c num
+  370  num wc -c
+  371  echo wc -c num
+  372  wc -c text
+  373  wc -c num
+  374  wc -c "num"
+  375  clear
+  376  wc -c "num"
+  377  sh CountCharsUserInput.sh
+  378  read num
+  379  echo num
+  380  clear
+  381  sh CountCharsUserInput.sh
+  382  c
+  383  sh CountCharsUserInput.sh
+  384  clar
+  385  clear
+  386  sh CountCharsUserInput.sh
+  387  cd Shell\ Scripting/
+  388  sh CountCharsUserInput.sh
+  389  clear
+  390  sh or.sh 
+  391  clear
+  392  sh switchCase.sh 
+  393  clear
+  394  sh WhileLoop.sh 
+  395  clear
+  396  sh WhileLoop.sh 
+  397  cear
+  398  clear
+  399  sh WhileLoop.sh 
+  400  toch test1 test2 test3
+  401  touch test1 test2 test3
+  402  rm -rf dog/
+  403  cd ..
+  404  rm -rf dog/
+  405  clear
+  406  sh UntilLoop.sh
+  407  cd Shell\ Scripting/
+  408  sh WhileLoop.sh 
+  409  clear
+  410  sh WhileLoop.sh 
+  411  clear
+  412  sh WhileLoop.sh 
+  413  clear
+  414  sh WhileLoop.sh 
+  415  clear
+  416  sh WhileLoop.sh 
+  417  clear
+  418  sh WhileLoop.sh 
+  419  sh UntilLoop.sh 
+  420  clear
+  421  sh UntilLoop.sh 
+  422  clear
+  423  sh For.sh 
+  424  clear
+  425  sh For.sh 
+  426  clear
+  427  sh For.sh 
+  428  clear
+  429  sh For.sh 
+  430  vi student 
+  431  cd Shell\ Scripting/
+  432  vi student 
+  433  htop
+  434  ls
+  435  vi student 
+  436  --tab
+  437  gnome-terminal --tab
+  438  clear
+  439  touch Hello.java
+  440  nana Hello
+  441  nana Hello.java
+  442  nano Hello.java
+  443  man nano
+  444  nano Hello.java
+  445  java Hello.java
+  446  nano Hello.java 
+  447  java Hello.java
+  448  javac Hello.java 
+  449  java Hello
+  450  java --version
+  451  java -version
+  452  clear
+  453  git
+  454  clear
+  455  git
+  456  clear
+  457  for items in *; if [ -f $items  ]
+  458  for items in *; if [ -f $items  ];
+  459  for items in *; do if [ -f $items  ]; echo $items; fi
+  460  for items in *; do if [ -f $items  ]; then echo $items; fi; done
+  461  clear
+  462  ls ~
+  463  wc
+  464  ls wc
+  465  clear
+  466  ls ~ | wc -lmw
+  467  env
+  468  clear
+  469  whereis
+  470  where is
+  471  whereis home
+  472  whereis env
+  473  what ls
+  474  whatis ls
+  475  find
+  476  clear
+  477  jobs
+  478  history
+  479  history | cat > Test
+  480  history | touch test
+  481  ls
+  482  cat test
+  483  history | cat > test
+  484  cat test
+  485  history | cat > vishal

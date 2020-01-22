@@ -1,0 +1,72 @@
+Script started on 2020-01-03 16:49:12+0530
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ echo ""h"e"l"o"
+helo
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ exitscript
+exitscript: command not found
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ clear
+[3J[H[2J]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ gedit Second[K[K[K[K[K[KUsingCommands [KInScript
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ ges[Kdit
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ gedit UsingCommandsInScript.sh [A
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ sh UsingCommandsInScript.sh [K
+/home/bridgelabz/Shell Scripting
+total 20
+-rw-r--r-- 1 bridgelabz bridgelabz 51 Jan  3 16:31 animals
+-rw-r--r-- 1 bridgelabz bridgelabz 57 Jan  3 16:46 HelloWorld.sh
+-rw-r--r-- 1 bridgelabz bridgelabz 65 Jan  3 16:37 student
+-rw-r--r-- 1 bridgelabz bridgelabz 18 Jan  3 16:14 test
+-rw-r--r-- 1 bridgelabz bridgelabz  0 Jan  3 16:49 typescript
+-rw-r--r-- 1 bridgelabz bridgelabz 51 Jan  3 16:55 UsingCommandsInScript.sh
+UsingCommandsInScript.sh: 4: UsingCommandsInScript.sh: banner: not found
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ sh UsingCommandsInScript.shgedit UsingCommandsInScript.sh [A
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ gedit UsingCommandsInScript.sh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+/home/bridgelabz/Shell Scripting
+total 20
+-rw-r--r-- 1 bridgelabz bridgelabz 51 Jan  3 16:31 animals
+-rw-r--r-- 1 bridgelabz bridgelabz 57 Jan  3 16:46 HelloWorld.sh
+-rw-r--r-- 1 bridgelabz bridgelabz 65 Jan  3 16:37 student
+-rw-r--r-- 1 bridgelabz bridgelabz 18 Jan  3 16:14 test
+-rw-r--r-- 1 bridgelabz bridgelabz  0 Jan  3 16:49 typescript
+-rw-r--r-- 1 bridgelabz bridgelabz 51 Jan  3 16:56 UsingCommandsInScript.sh
+UsingCommandsInScript.sh: 4: UsingCommandsInScript.sh: banner: not found
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ passwd
+Changing password for bridgelabz.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+You must choose a longer password
+Enter new UNIX password: 
+Retype new UNIX password: 
+You must choose a longer password
+Enter new UNIX password: 
+Retype new UNIX password: 
+No password supplied
+passwd: Authentication token manipulation error
+passwd: password unchanged
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ clear
+[3J[H[2J]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ sudo i[K-i
+[sudo] password for bridgelabz: 
+]0;root@bridgelabz-LIVA-Z2V: ~root@bridgelabz-LIVA-Z2V:~# passwd
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;root@bridgelabz-LIVA-Z2V: ~root@bridgelabz-LIVA-Z2V:~# exit
+logout
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ clear
+[3J[H[2J]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ clearsudo -i[2Pclearsudo -i
+]0;root@bridgelabz-LIVA-Z2V: ~root@bridgelabz-LIVA-Z2V:~# exitpasswd
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;root@bridgelabz-LIVA-Z2V: ~root@bridgelabz-LIVA-Z2V:~# exit
+logout
+]0;bridgelabz@bridgelabz-LIVA-Z2V: ~/Shell Scripting[01;32mbridgelabz@bridgelabz-LIVA-Z2V[00m:[01;34m~/Shell Scripting[00m$ exit
+exit
+
+Script done on 2020-01-03 17:12:00+0530
